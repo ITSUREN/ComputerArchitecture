@@ -48,11 +48,12 @@ R2
 R3
 n@_opt3
 R4
+R0
 Eandgate
-Z5 w1713772381
+Z5 w1713848644
 Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 28
+!i122 36
 Z8 dS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice
 Z9 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/AND_GATE.vhd
 Z10 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/AND_GATE.vhd
@@ -62,9 +63,9 @@ VoQdWa;NX<ddRPm<9L4]^51
 !s100 g]BobAUIh89iZY8o4FlE<1
 Z12 OL;C;2020.4;71
 32
-Z13 !s110 1713845351
+Z13 !s110 1713849081
 !i10b 1
-Z14 !s108 1713845351.000000
+Z14 !s108 1713849081.000000
 Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/AND_GATE.vhd|
 Z16 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/AND_GATE.vhd|
 !i113 0
@@ -74,7 +75,7 @@ Aandlogic
 R6
 R7
 DEx4 work 7 andgate 0 22 oQdWa;NX<ddRPm<9L4]^51
-!i122 28
+!i122 36
 l23
 Z19 L21 7
 VK[89fBh6zj27Z=H]:^0`b0
@@ -90,24 +91,24 @@ R16
 R17
 R18
 Efulladder
-Z20 w1713845601
+R5
 R6
 R7
-!i122 35
+!i122 37
 R8
-Z21 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/FULL_ADDER.vhd
-Z22 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/FULL_ADDER.vhd
+Z20 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/FULL_ADDER.vhd
+Z21 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/FULL_ADDER.vhd
 l0
 R11
 V=IIMkjPgHj2R4f>nP:>4`0
 !s100 JWG1n4fAomATC;<z0BBzl0
 R12
 32
-Z23 !s110 1713845608
+R13
 !i10b 1
-Z24 !s108 1713845608.000000
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/FULL_ADDER.vhd|
-Z26 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/FULL_ADDER.vhd|
+R14
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/FULL_ADDER.vhd|
+Z23 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/FULL_ADDER.vhd|
 !i113 0
 R17
 R18
@@ -115,40 +116,40 @@ Afulladderlogic
 R6
 R7
 DEx4 work 9 fulladder 0 22 =IIMkjPgHj2R4f>nP:>4`0
-!i122 35
+!i122 37
 l25
 L23 8
 Vj]_dN2M<Z[2ZIA1gLFE:f3
 !s100 LGm7ameUZ`k078?WdX3eQ2
 R12
 32
-R23
+R13
 !i10b 1
-R24
-R25
-R26
+R14
+R22
+R23
 !i113 0
 R17
 R18
 Ehalfadder
-Z27 w1713845129
+R5
 R6
 R7
-!i122 27
+!i122 38
 R8
-Z28 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/HALF_ADDER.vhd
-Z29 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/HALF_ADDER.vhd
+Z24 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/HALF_ADDER.vhd
+Z25 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/HALF_ADDER.vhd
 l0
 R11
 V>9aKUeU2VY07G;_Gdh0kW0
 !s100 ?zSCUgz=VCQj1n>Bk0<G[3
 R12
 32
-Z30 !s110 1713845137
+R13
 !i10b 1
-Z31 !s108 1713845137.000000
-Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/HALF_ADDER.vhd|
-Z33 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/HALF_ADDER.vhd|
+R14
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/HALF_ADDER.vhd|
+Z27 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/HALF_ADDER.vhd|
 !i113 0
 R17
 R18
@@ -156,29 +157,29 @@ Ahalfadderlogic
 R6
 R7
 DEx4 work 9 halfadder 0 22 >9aKUeU2VY07G;_Gdh0kW0
-!i122 27
+!i122 38
 l24
 L22 8
 V=16lcNCMCO4BjDhA8F2dB2
 !s100 `jG605>X7m_f3_8_8UAGk0
 R12
 32
-R30
+R13
 !i10b 1
-R31
-R32
-R33
+R14
+R26
+R27
 !i113 0
 R17
 R18
 Enandgate
-Z34 w1713803356
+R5
 R6
 R7
-!i122 29
+!i122 39
 R8
-Z35 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NAND_GATE.vhd
-Z36 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NAND_GATE.vhd
+Z28 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NAND_GATE.vhd
+Z29 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NAND_GATE.vhd
 l0
 R11
 VAE9cVKcmZmC0TU8TRmR?[2
@@ -188,8 +189,8 @@ R12
 R13
 !i10b 1
 R14
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NAND_GATE.vhd|
-Z38 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NAND_GATE.vhd|
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NAND_GATE.vhd|
+Z31 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NAND_GATE.vhd|
 !i113 0
 R17
 R18
@@ -197,7 +198,7 @@ Anandlogic
 R6
 R7
 DEx4 work 8 nandgate 0 22 AE9cVKcmZmC0TU8TRmR?[2
-!i122 29
+!i122 39
 l23
 R19
 VICC88AHCf[i9fE<fD>XM[2
@@ -207,30 +208,30 @@ R12
 R13
 !i10b 1
 R14
-R37
-R38
+R30
+R31
 !i113 0
 R17
 R18
 Enorgate
-Z39 w1713803068
+R5
 R6
 R7
-!i122 24
+!i122 40
 R8
-Z40 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOR_GATE.vhd
-Z41 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOR_GATE.vhd
+Z32 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOR_GATE.vhd
+Z33 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOR_GATE.vhd
 l0
 R11
 VR`4j0CgYMPUHA[S0UQXLC1
 !s100 ha0<HP^cL`DES_WgQLE^30
 R12
 32
-Z42 !s110 1713843329
+Z34 !s110 1713849082
 !i10b 1
-Z43 !s108 1713843329.000000
-Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOR_GATE.vhd|
-Z45 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOR_GATE.vhd|
+Z35 !s108 1713849082.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOR_GATE.vhd|
+Z37 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOR_GATE.vhd|
 !i113 0
 R17
 R18
@@ -238,40 +239,40 @@ Anorlogic
 R6
 R7
 DEx4 work 7 norgate 0 22 R`4j0CgYMPUHA[S0UQXLC1
-!i122 24
+!i122 40
 l23
 R19
 V]AbN88Z6e^R2AW<eE9lXm2
 !s100 nm?zN_G1_Rk1X=5LFIO2b2
 R12
 32
-R42
+R34
 !i10b 1
-R43
-R44
-R45
+R35
+R36
+R37
 !i113 0
 R17
 R18
 Enotgate
-Z46 w1713804679
+R5
 R6
 R7
-!i122 30
+!i122 41
 R8
-Z47 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOT_GATE.vhd
-Z48 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOT_GATE.vhd
+Z38 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOT_GATE.vhd
+Z39 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOT_GATE.vhd
 l0
 L11 1
 Vi0<C0=^R3z<C`2V>QRY8m1
 !s100 X[:]a^CLj6RNLj5a^mVM51
 R12
 32
-R13
+R34
 !i10b 1
-R14
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOT_GATE.vhd|
-Z50 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOT_GATE.vhd|
+R35
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOT_GATE.vhd|
+Z41 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOT_GATE.vhd|
 !i113 0
 R17
 R18
@@ -279,40 +280,40 @@ Anotlogic
 R6
 R7
 DEx4 work 7 notgate 0 22 i0<C0=^R3z<C`2V>QRY8m1
-!i122 30
+!i122 41
 l23
 R19
 VGXJR5J]g^Ug@dP<zGIe0d0
 !s100 XM9@eIY:4_ic2Hk2>Le^10
 R12
 32
-R13
+R34
 !i10b 1
-R14
-R49
-R50
+R35
+R40
+R41
 !i113 0
 R17
 R18
 Eorgate
-Z51 w1713772740
+R5
 R6
 R7
-!i122 31
+!i122 42
 R8
-Z52 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/OR_GATE.vhd
-Z53 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/OR_GATE.vhd
+Z42 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/OR_GATE.vhd
+Z43 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/OR_GATE.vhd
 l0
 R11
 Vm]6ZOd4A1;obXkBaoY@=@1
 !s100 aMQ:DVafb2D6nR@]8n3@T2
 R12
 32
-R13
+R34
 !i10b 1
-R14
-Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/OR_GATE.vhd|
-Z55 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/OR_GATE.vhd|
+R35
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/OR_GATE.vhd|
+Z45 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/OR_GATE.vhd|
 !i113 0
 R17
 R18
@@ -320,40 +321,40 @@ Aorlogic
 R6
 R7
 DEx4 work 6 orgate 0 22 m]6ZOd4A1;obXkBaoY@=@1
-!i122 31
+!i122 42
 l23
 R19
 VnEKE<he]K2Ng7>UN9AU6g0
 !s100 [M_`3eWHi;5F5CSUIz>DU1
 R12
 32
-R13
+R34
 !i10b 1
-R14
-R54
-R55
+R35
+R44
+R45
 !i113 0
 R17
 R18
 Exnorgate
-Z56 w1713844992
+R5
 R6
 R7
-!i122 32
+!i122 43
 R8
-Z57 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/XNOR_GATE.vhd
-Z58 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/XNOR_GATE.vhd
+Z46 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/XNOR_GATE.vhd
+Z47 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/XNOR_GATE.vhd
 l0
 R11
 VQN9i[I0]`IRf>dR3EC>610
 !s100 ?FKjcb0aM1ei7E=9>7fO=3
 R12
 32
-R13
+R34
 !i10b 1
-R14
-Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/XNOR_GATE.vhd|
-Z60 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/XNOR_GATE.vhd|
+R35
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/XNOR_GATE.vhd|
+Z49 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/XNOR_GATE.vhd|
 !i113 0
 R17
 R18
@@ -361,59 +362,59 @@ Axnorlogic
 R6
 R7
 DEx4 work 8 xnorgate 0 22 QN9i[I0]`IRf>dR3EC>610
-!i122 32
+!i122 43
 l23
 R19
 V7EUBnZXj3:nE^1gKhM^>T0
 !s100 _2=0P>Zh=b;ncnLf7zY]a2
 R12
 32
-R13
+R34
 !i10b 1
-R14
-R59
-R60
+R35
+R48
+R49
 !i113 0
 R17
 R18
 Exorgate
-Z61 w1713844719
+R5
 R6
 R7
-!i122 33
+!i122 44
 R8
-Z62 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/XOR_GATE.vhd
-Z63 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/XOR_GATE.vhd
+Z50 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/XOR_GATE.vhd
+Z51 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/XOR_GATE.vhd
 l0
 R11
 VzJm?;IY65okPDG<:a@1hB2
 !s100 ;KElg5JK9jhNM<W]CIUE81
 R12
 32
-R13
+R34
 !i10b 1
-R14
-Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/XOR_GATE.vhd|
-Z65 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/XOR_GATE.vhd|
+R35
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/XOR_GATE.vhd|
+Z53 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/XOR_GATE.vhd|
 !i113 0
 R17
 R18
 Axorlogic
 R6
 R7
-DEx4 work 7 xorgate 0 22 zJm?;IY65okPDG<:a@1hB2
-!i122 33
+Z54 DEx4 work 7 xorgate 0 22 zJm?;IY65okPDG<:a@1hB2
+!i122 44
 l23
 R19
-VSgEYhTTgY9:]c2YAHX5<i0
-!s100 UW2d^i6LzaWJi=4iB_UEI3
+Z55 VSgEYhTTgY9:]c2YAHX5<i0
+Z56 !s100 UW2d^i6LzaWJi=4iB_UEI3
 R12
 32
-R13
+R34
 !i10b 1
-R14
-R64
-R65
+R35
+R52
+R53
 !i113 0
 R17
 R18
