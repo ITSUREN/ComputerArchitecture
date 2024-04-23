@@ -1,0 +1,142 @@
+# Compile of NOR_GATE.vhd was successful.
+vsim -gui Avarice.norgate
+# vsim -gui Avarice.norgate 
+# Start time: 09:21:45 on Apr 23,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.norgate(norlogic)#1
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:C:/mtitcl/vsim/qstructure.tc_:2478: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+view -new wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/norgate/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Itsur  Hostname: ITSUREN  ProcessID: 22352
+#           Attempting to use alternate WLF file "./wlft8ch8zw".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8ch8zw
+force -freeze sim:/norgate/B 0 0
+force -freeze sim:/norgate/A 0 0
+run
+force -freeze sim:/norgate/B 1 0
+run
+force -freeze sim:/norgate/B 0 0
+force -freeze sim:/norgate/A 1 0
+run
+force -freeze sim:/norgate/B 1 0
+run
+# Compile of XOR_GATE.vhd was successful.
+vsim -gui Avarice.xorgate
+# End time: 09:24:28 on Apr 23,2024, Elapsed time: 0:02:43
+# Errors: 0, Warnings: 8
+# vsim -gui Avarice.xorgate 
+# Start time: 09:24:28 on Apr 23,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.xorgate(xorlogic)#1
+view -new wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/xorgate/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Itsur  Hostname: ITSUREN  ProcessID: 22352
+#           Attempting to use alternate WLF file "./wlftd30727".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftd30727
+force -freeze sim:/xorgate/A 0 0
+force -freeze sim:/xorgate/B 0 0
+run
+force -freeze sim:/xorgate/B 1 0
+run
+force -freeze sim:/xorgate/A 1 0
+force -freeze sim:/xorgate/B 0 0
+run
+force -freeze sim:/xorgate/B 1 0
+run -continue
+run
+# Compile of HALF_ADDER.vhd was successful.
+vsim -gui Avarice.halfaddergate
+# End time: 09:50:11 on Apr 23,2024, Elapsed time: 0:25:43
+# Errors: 0, Warnings: 4
+# vsim -gui Avarice.halfaddergate 
+# Start time: 09:50:11 on Apr 23,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.halfaddergate(halfadderlogic)#1
+# Compile of HALF_ADDER.vhd was successful.
+vsim -gui Avarice.halfadder
+# End time: 09:51:00 on Apr 23,2024, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 2
+# vsim -gui Avarice.halfadder 
+# Start time: 09:51:00 on Apr 23,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.halfadder(halfadderlogic)#1
+view -new wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/halfadder/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Itsur  Hostname: ITSUREN  ProcessID: 22352
+#           Attempting to use alternate WLF file "./wlft2503tm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2503tm
+force -freeze sim:/halfadder/A 0 0
+force -freeze sim:/halfadder/B 0 0
+run
+force -freeze sim:/halfadder/B 1 0
+run
+force -freeze sim:/halfadder/A 1 0
+run
+force -freeze sim:/halfadder/B 0 0
+run
+# Compile of AND_GATE.vhd was successful.
+# Compile of NAND_GATE.vhd was successful.
+# Compile of NOT_GATE.vhd was successful.
+# Compile of OR_GATE.vhd was successful.
+# Compile of XNOR_GATE.vhd was successful.
+# Compile of XOR_GATE.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of FULL_ADDER.vhd failed with 2 errors.
+# Compile of FULL_ADDER.vhd was successful.
+vsim Avarice.fulladder
+# End time: 09:58:44 on Apr 23,2024, Elapsed time: 0:07:44
+# Errors: 0, Warnings: 6
+# vsim Avarice.fulladder 
+# Start time: 09:58:44 on Apr 23,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.fulladder(fulladderlogic)#1
+view -new wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/fulladder/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Itsur  Hostname: ITSUREN  ProcessID: 22352
+#           Attempting to use alternate WLF file "./wlftvmxzaz".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftvmxzaz
+force -freeze sim:/fulladder/A 0 0
+force -freeze sim:/fulladder/B 0 0
+force -freeze sim:/fulladder/Cin 0 0
+run
+force -freeze sim:/fulladder/Cin 1 0
+run
+force -freeze sim:/fulladder/B 1 0
+run
+force -freeze sim:/fulladder/A 1 0
+run
+# End time: 10:40:33 on Apr 23,2024, Elapsed time: 0:41:49
+# Errors: 0, Warnings: 3
