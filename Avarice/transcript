@@ -1,10 +1,243 @@
+# Compile of 8BIT_ALU.vhd failed with 4 errors.
+# Compile of 8BIT_ALU.vhd failed with 4 errors.
+# Compile of 8BIT_ALU.vhd was successful with warnings.
+# Compile of 4BIT_ALU.vhd was successful.
+vsim Avarice.alu_4bit
+# vsim Avarice.alu_4bit 
+# Start time: 16:12:59 on Apr 23,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu_4bit(behavioral)#1
+view -new wave
+# .main_pane.wave1.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/alu_4bit/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Itsur  Hostname: ITSUREN  ProcessID: 22352
+#           Attempting to use alternate WLF file "./wlft0gy2r0".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0gy2r0
+force -freeze sim:/alu_4bit/A 4'h2 0
+force -freeze sim:/alu_4bit/B 4'h2 0
+force -freeze sim:/alu_4bit/op 3'h0 0
+run
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /alu_4bit
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /alu_4bit
+force -freeze sim:/alu_4bit/A 4'h1 0
+force -freeze sim:/alu_4bit/A 4'h2 0
+force -freeze sim:/alu_4bit/B 4'h2 0
+force -freeze sim:/alu_4bit/op 3'h0 0
+force -freeze sim:/alu_4bit/op 3'h1 0
+run
+force -freeze sim:/alu_4bit/op 3'h2 0
+run
+force -freeze sim:/alu_4bit/op 3'h3 0
+run
+run
+force -freeze sim:/alu_4bit/op 3'h4 0
+run
+# Compile of 4BIT_ALU.vhd was successful.
+vsim Avarice.alu_4bit
+# End time: 16:23:42 on Apr 23,2024, Elapsed time: 0:10:43
+# Errors: 0, Warnings: 10
+# vsim Avarice.alu_4bit 
+# Start time: 16:23:42 on Apr 23,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu_4bit(behavioral)#1
+view -new wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/alu_4bit/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Itsur  Hostname: ITSUREN  ProcessID: 22352
+#           Attempting to use alternate WLF file "./wlftys1idd".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftys1idd
+force -freeze sim:/alu_4bit/A 4'h2 0
+force -freeze sim:/alu_4bit/B 4'h2 0
+force -freeze sim:/alu_4bit/op 3'h0 0
+run
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /alu_4bit
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /alu_4bit
+force -freeze sim:/alu_4bit/op 3'h1 0
+run
+force -freeze sim:/alu_4bit/op 3'h2 0
+force -freeze sim:/alu_4bit/op 3'h0 0
+run -continue
+run
+force -freeze sim:/alu_4bit/A(3) 1 0
+force -freeze sim:/alu_4bit/B(3) 1 0
+run
+run
+force -freeze sim:/alu_4bit/B(3) 0 0
+run
+force -freeze sim:/alu_4bit/B(3) 1 0
+run
+# Compile of 4BIT_ALU.vhd failed with 18 errors.
+# Compile of 4BIT_ALU.vhd failed with 16 errors.
+# Compile of 4BIT_ALU.vhd was successful.
+# Compile of 4BIT_ALU.vhd failed with 5 errors.
+# Compile of 4BIT_ALU.vhd was successful.
+vsim Avarice.alu_4bit
+# End time: 16:36:06 on Apr 23,2024, Elapsed time: 0:12:24
+# Errors: 0, Warnings: 10
+# vsim Avarice.alu_4bit 
+# Start time: 16:36:06 on Apr 23,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu_4bit(behavioral)#1
+view -new wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/alu_4bit/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Itsur  Hostname: ITSUREN  ProcessID: 22352
+#           Attempting to use alternate WLF file "./wlftra5wte".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftra5wte
+force -freeze sim:/alu_4bit/A 4'h2 0
+force -freeze sim:/alu_4bit/B 4'h2 0
+force -freeze sim:/alu_4bit/op 3'h0 0
+run
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /alu_4bit
+force -freeze sim:/alu_4bit/A 4'h4 0
+force -freeze sim:/alu_4bit/A 4'h2 0
+force -freeze sim:/alu_4bit/A(3) 1 0
+force -freeze sim:/alu_4bit/B(3) 1 0
+run
+force -freeze sim:/alu_4bit/B(3) 0 0
+run
+force -freeze sim:/alu_4bit/B 4'h3 0
+run
+force -freeze sim:/alu_4bit/A 4'h2 0
+run
+force -freeze sim:/alu_4bit/op 3'h1 0
+run
+# Compile of 4BIT_ALU.vhd was successful.
+vsim Avarice.alu_4bit
+# End time: 16:40:07 on Apr 23,2024, Elapsed time: 0:04:01
+# Errors: 0, Warnings: 5
+# vsim Avarice.alu_4bit 
+# Start time: 16:40:07 on Apr 23,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu_4bit(behavioral)#1
+view -new wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/alu_4bit/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Itsur  Hostname: ITSUREN  ProcessID: 22352
+#           Attempting to use alternate WLF file "./wlft70abt9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft70abt9
+force -freeze sim:/alu_4bit/A 4'h2 0
+force -freeze sim:/alu_4bit/B 4'h3 0
+force -freeze sim:/alu_4bit/op 3'h1 0
+run
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /alu_4bit
+view -new wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/alu_4bit/*
+# Compile of 4BIT_ALU.vhd was successful.
+vsim Avarice.alu_4bit
+# End time: 16:42:12 on Apr 23,2024, Elapsed time: 0:02:05
+# Errors: 0, Warnings: 5
+# vsim Avarice.alu_4bit 
+# Start time: 16:42:12 on Apr 23,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu_4bit(behavioral)#1
+view -new wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/alu_4bit/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Itsur  Hostname: ITSUREN  ProcessID: 22352
+#           Attempting to use alternate WLF file "./wlfthve4e4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfthve4e4
+force -freeze sim:/alu_4bit/A 4'h2 0
+force -freeze sim:/alu_4bit/B 4'h3 0
+force -freeze sim:/alu_4bit/op 3'h1 0
+run
+force -freeze sim:/alu_4bit/op 3'h0 0
+run
+run
+force -freeze sim:/alu_4bit/B 4'h4 0
+run
+force -freeze sim:/alu_4bit/A 4'h5 0
+force -freeze sim:/alu_4bit/op 3'h1 0
+run
+force -freeze sim:/alu_4bit/op 3'h0 0
+run
+force -freeze sim:/alu_4bit/A 4'h5 0
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt3
+view -new wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/alu_4bit/*
+force -freeze sim:/alu_4bit/A 4'h2 0
+force -freeze sim:/alu_4bit/B 4'h3 0
+force -freeze sim:/alu_4bit/op 3'h0 0
+run
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /alu_4bit
+force -freeze sim:/alu_4bit/op 3'h2 0
+run
+force -freeze sim:/alu_4bit/op 3'h3 0
+run
+run
+force -freeze sim:/alu_4bit/op 3'h4 0
+run
+force -freeze sim:/alu_4bit/B(3) 1 0
+run
+force -freeze sim:/alu_4bit/A(3) 1 0
+run
+force -freeze sim:/alu_4bit/op 3'h5 0
+run
+force -freeze sim:/alu_4bit/op 3'h6 0
+run
+# Compile of 2X4DECODER.vhd was successful.
+# Compile of 3X8DECODER.vhd was successful.
+# Compile of 4BIT_ALU.vhd was successful.
+# Compile of 4X1MULTIPLEXER.vhd was successful.
+# Compile of 4X2ENCODER.vhd was successful.
+# Compile of 8BIT_ALU.vhd was successful.
+# Compile of 8X3ENCODER.vhd was successful.
 # Compile of AND_GATE.vhd was successful.
+# Compile of D_FLIPFLOP.vhd was successful.
 # Compile of FULL_ADDER.vhd was successful.
+# Compile of FULL_SUBTRACTOR.vhd was successful.
 # Compile of HALF_ADDER.vhd was successful.
+# Compile of HALF_SUBTRACTOR.vhd was successful.
+# Compile of JK_FLIPFLOP.vhd was successful.
 # Compile of NAND_GATE.vhd was successful.
 # Compile of NOR_GATE.vhd was successful.
 # Compile of NOT_GATE.vhd was successful.
 # Compile of OR_GATE.vhd was successful.
+# Compile of SR_FLIPFLOP.vhd was successful.
 # Compile of XNOR_GATE.vhd was successful.
 # Compile of XOR_GATE.vhd was successful.
-# 9 compiles, 0 failed with no errors.
+# 21 compiles, 0 failed with no errors.
+# End time: 16:57:06 on Apr 23,2024, Elapsed time: 0:14:54
+# Errors: 0, Warnings: 3
