@@ -1,3 +1,4 @@
+# Compile of D_FLIPFLOP.vhd was successful.
 # Compile of 2X4DECODER.vhd was successful.
 # Compile of 3X8DECODER.vhd was successful.
 # Compile of 4BIT_ALU.vhd was successful.
@@ -6,7 +7,6 @@
 # Compile of 8BIT_ALU.vhd was successful.
 # Compile of 8X3ENCODER.vhd was successful.
 # Compile of AND_GATE.vhd was successful.
-# Compile of D_FLIPFLOP.vhd was successful.
 # Compile of FULL_ADDER.vhd was successful.
 # Compile of FULL_SUBTRACTOR.vhd was successful.
 # Compile of HALF_ADDER.vhd was successful.
@@ -19,4 +19,4 @@
 # Compile of SR_FLIPFLOP.vhd was successful.
 # Compile of XNOR_GATE.vhd was successful.
 # Compile of XOR_GATE.vhd was successful.
-# 21 compiles, 0 failed with no errors.
+# 20 compiles, 0 failed with no errors.

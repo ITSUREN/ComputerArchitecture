@@ -1,0 +1,1947 @@
+m255
+K4
+z2
+!s8c locked
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+!s95 MTI
+cModel Technology Builtin Library
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+dC:/cygwin/pc_home/rhino/buildsites/2020.p/builds/win64/modeltech
+/electrical_systems
+Z0 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z1 DPx4 ieee 21 fundamental_constants 0 22 Nhh35@akTJob5g<8z1cW=0
+!i122 14
+Z2 w1602644074
+Z3 d$MODEL_TECH/..
+Z4 8vhdl_src/ieee/ieee_ams_context.vhd
+Z5 Fvhdl_src/ieee/ieee_ams_context.vhd
+l0
+L218 1
+Vg?XHkUFEGK<FiEz02jfga2
+!s100 g?XHkUFEGK<FiEz02jfga2
+Z6 OL;C;2020.4;71
+35
+Z7 !s110 1602644246
+!i10b 1
+Z8 !s108 1602644246.000000
+Z9 !s90 -debuglib|-suppress|12110|-ams07|-suppress|15011|-work|ieee|-dirpath|$MODEL_TECH/..|-nowarn|3|vhdl_src/ieee/ieee_ams_context.vhd|
+Z10 !s107 vhdl_src/ieee/ieee_ams_context.vhd|
+!i113 1
+Z11 o-suppress 12110 -suppress 15011 -debuglib -ams07 -work ieee -dirpath {$MODEL_TECH/..} -nowarn 3
+Z12 tExplicit 1 CvgOpt 0
+/energy_systems
+R0
+R1
+!i122 14
+R2
+R3
+R4
+R5
+l0
+L145 1
+V`1oa]EFkUH]k657ATPzi71
+!s100 `1oa]EFkUH]k657ATPzi71
+R6
+35
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Pfixed_float_types
+!i122 8
+Z13 w1602644073
+R3
+8vhdl_src/ieee/fixed_float_types.vhdl
+Fvhdl_src/ieee/fixed_float_types.vhdl
+l0
+Z14 L43 1
+Vj<WD5SZ6`I4KC;8P]h@_10
+!s100 j<WD5SZ6`I4KC;8P]h@_10
+R6
+33
+Z15 !s110 1602644245
+!i10b 1
+Z16 !s108 1602644244.000000
+!s90 -debuglib|-suppress|12110|-2008|-work|ieee|-dirpath|$MODEL_TECH/..|-nowarn|3|vhdl_src/ieee/fixed_float_types.vhdl|
+!s107 vhdl_src/ieee/fixed_float_types.vhdl|
+!i113 1
+Z17 o-suppress 12110 -debuglib -2008 -work ieee -dirpath {$MODEL_TECH/..} -nowarn 3
+R12
+Pfixed_generic_pkg
+Z18 DPx4 ieee 17 fixed_float_types 0 22 j<WD5SZ6`I4KC;8P]h@_10
+Z19 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z20 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z21 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+!i122 9
+R13
+R3
+8vhdl_src/ieee/fixed_generic_pkg.vhdl
+Fvhdl_src/ieee/fixed_generic_pkg.vhdl
+l0
+Z22 L49 1
+VRl?j<5:i_L<aE9]<7A]V?0
+!s100 Rl?j<5:i_L<aE9]<7A]V?0
+R6
+33
+b1
+!i109 1
+R15
+!i10b 1
+Z23 !s108 1602644245.000000
+Z24 !s90 -debuglib|-suppress|12110|-2008|-work|ieee|-dirpath|$MODEL_TECH/..|-nowarn|3|vhdl_src/ieee/fixed_generic_pkg.vhdl|vhdl_src/ieee/fixed_generic_pkg-body.vhdl|
+Z25 !s107 vhdl_src/ieee/fixed_generic_pkg-body.vhdl|vhdl_src/ieee/fixed_generic_pkg.vhdl|
+!i113 1
+R17
+R12
+Bbody
+DPx4 work 17 fixed_generic_pkg 0 22 Rl?j<5:i_L<aE9]<7A]V?0
+R0
+R18
+R19
+R20
+R21
+!i122 9
+8vhdl_src/ieee/fixed_generic_pkg-body.vhdl
+Fvhdl_src/ieee/fixed_generic_pkg-body.vhdl
+l0
+L46 1
+VYX7o<=i^@69Sm1gW_d;XB1
+!s100 YX7o<=i^@69Sm1gW_d;XB1
+R6
+33
+!i109 1
+R15
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R17
+R12
+Pfixed_pkg
+R18
+R19
+R20
+R21
+Z26 DBx4 ieee 17 fixed_generic_pkg 4 body 22 YX7o<=i^@69Sm1gW_d;XB1
+!i122 10
+R13
+R3
+8vhdl_src/ieee/fixed_pkg.vhdl
+Fvhdl_src/ieee/fixed_pkg.vhdl
+l0
+Z27 L45 1
+Vc`b>2Shb`ic5KAcV=K;Co1
+!s100 c`b>2Shb`ic5KAcV=K;Co1
+R6
+33
+!i109 2
+R15
+!i10b 1
+R23
+!s90 -debuglib|-suppress|12110|-2008|-work|ieee|-dirpath|$MODEL_TECH/..|-nowarn|3|vhdl_src/ieee/fixed_pkg.vhdl|
+!s107 vhdl_src/ieee/fixed_pkg.vhdl|
+!i113 1
+R17
+R12
+Pfloat_generic_pkg
+Z28 DPx4 ieee 17 fixed_generic_pkg 0 22 Rl?j<5:i_L<aE9]<7A]V?0
+R18
+R19
+R20
+R21
+!i122 11
+R2
+R3
+8vhdl_src/ieee/float_generic_pkg.vhdl
+Fvhdl_src/ieee/float_generic_pkg.vhdl
+l0
+R22
+Vl0>E?GLYTVVBPfR5mZD1M2
+!s100 l0>E?GLYTVVBPfR5mZD1M2
+R6
+33
+b1
+!i109 1
+R15
+!i10b 1
+R23
+Z29 !s90 -debuglib|-suppress|12110|-2008|-work|ieee|-dirpath|$MODEL_TECH/..|-nowarn|3|vhdl_src/ieee/float_generic_pkg.vhdl|vhdl_src/ieee/float_generic_pkg-body.vhdl|
+Z30 !s107 vhdl_src/ieee/float_generic_pkg-body.vhdl|vhdl_src/ieee/float_generic_pkg.vhdl|
+!i113 1
+R17
+R12
+Bbody
+DPx4 work 17 float_generic_pkg 0 22 l0>E?GLYTVVBPfR5mZD1M2
+R28
+R18
+R19
+R20
+R21
+!i122 11
+8vhdl_src/ieee/float_generic_pkg-body.vhdl
+Fvhdl_src/ieee/float_generic_pkg-body.vhdl
+l0
+R14
+VH?RSbZ=lR0[b?m<zWkZGN1
+!s100 H?RSbZ=lR0[b?m<zWkZGN1
+R6
+33
+!i109 1
+R15
+!i10b 1
+R23
+R29
+R30
+!i113 1
+R17
+R12
+Pfloat_pkg
+DPx4 ieee 9 fixed_pkg 0 22 c`b>2Shb`ic5KAcV=K;Co1
+R26
+R18
+R19
+R20
+R21
+DBx4 ieee 17 float_generic_pkg 4 body 22 H?RSbZ=lR0[b?m<zWkZGN1
+!i122 12
+R2
+R3
+8vhdl_src/ieee/float_pkg.vhdl
+Fvhdl_src/ieee/float_pkg.vhdl
+l0
+R27
+VDJZPnOhNOL=fWo3;8j`XI0
+!s100 DJZPnOhNOL=fWo3;8j`XI0
+R6
+33
+!i109 2
+R7
+!i10b 1
+R23
+!s90 -debuglib|-suppress|12110|-2008|-work|ieee|-dirpath|$MODEL_TECH/..|-nowarn|3|vhdl_src/ieee/float_pkg.vhdl|
+!s107 vhdl_src/ieee/float_pkg.vhdl|
+!i113 1
+R17
+R12
+/fluidic_systems
+R0
+R1
+!i122 14
+R2
+R3
+R4
+R5
+l0
+L662 1
+V[;lHOj7EJ6d8P^[`gFlPb0
+!s100 [;lHOj7EJ6d8P^[`gFlPb0
+R6
+35
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+/fundamental_constants
+R0
+!i122 14
+R2
+R3
+R4
+R5
+l0
+Z31 L56 1
+VNhh35@akTJob5g<8z1cW=0
+!s100 Nhh35@akTJob5g<8z1cW=0
+R6
+35
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+^#ieee_bit_context
+R2
+!i122 23
+R3
+8vhdl_src/ieee/ieee_bit_context.vhd
+Fvhdl_src/ieee/ieee_bit_context.vhd
+l0
+L1 1
+V8;nmf^<<Q;TXX7lB^BofF3
+!s100 8;nmf^<<Q;TXX7lB^BofF3
+R6
+33
+Z32 !s110 1602644248
+!i10b 0
+Z33 !s108 1602644248.000000
+!s90 -debuglib|-suppress|12110|-2008|-work|ieee|-dirpath|$MODEL_TECH/..|vhdl_src/ieee/ieee_bit_context.vhd|
+!s107 vhdl_src/ieee/ieee_bit_context.vhd|
+!i113 1
+Z34 o-suppress 12110 -debuglib -2008 -work ieee -dirpath {$MODEL_TECH/..}
+R12
+^#ieee_std_context
+R2
+!i122 24
+R3
+8vhdl_src/ieee/ieee_std_context.vhd
+Fvhdl_src/ieee/ieee_std_context.vhd
+l0
+L1 1
+V7m;SE_P[R@HSc<;N29LfO0
+!s100 7m;SE_P[R@HSc<;N29LfO0
+R6
+33
+R32
+!i10b 0
+R33
+!s90 -debuglib|-suppress|12110|-2008|-work|ieee|-dirpath|$MODEL_TECH/..|vhdl_src/ieee/ieee_std_context.vhd|
+!s107 vhdl_src/ieee/ieee_std_context.vhd|
+!i113 1
+R34
+R12
+Pmath_complex
+Z35 DPx4 work 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+!i122 5
+R2
+R3
+Z36 8vhdl_src/ieee/1076-2code.vhd
+Z37 Fvhdl_src/ieee/1076-2code.vhd
+l0
+L677 1
+Z38 VlndMRF4<kJnT_9]@:30S@3
+!s100 lndMRF4<kJnT_9]@:30S@3
+R6
+33
+b1
+Z39 !s110 1602644244
+!i10b 1
+R16
+Z40 !s90 -debuglib|-suppress|12110|-2008|-mixedsvvh|-work|ieee|-dirpath|$MODEL_TECH/..|-nowarn|3|vhdl_src/ieee/1076-2code.vhd|
+Z41 !s107 vhdl_src/ieee/1076-2code.vhd|
+!i113 1
+Z42 o-suppress 12110 -debuglib -2008 -mixedsvvh -work ieee -dirpath {$MODEL_TECH/..} -nowarn 3
+R12
+Bbody
+DPx4 work 12 math_complex 0 22 lndMRF4<kJnT_9]@:30S@3
+R35
+!i122 5
+l0
+L3695 1
+VljIMFKzj?`ZLjOJ=X<jTO1
+!s100 ljIMFKzj?`ZLjOJ=X<jTO1
+R6
+33
+R39
+!i10b 1
+R16
+R40
+R41
+!i113 1
+R42
+R12
+XMATH_COMPLEX__mti__sv__equiv__implct__pack
+R37
+IlndMRF4<kJnT_9]@:30S@3
+R38
+Z43 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R39
+!i10b 1
+!s100 G^<>09C`XFQDhz?dk^>k?3
+Z44 !s11b Dg1SIo80bB@j0V0VzS_@n1
+S1
+R3
+Z45 w1602644244
+8C:/cygwin/pc_home/rhino/buildsites/2020.p/builds/win64/modeltech/ieee/_data/exemptzmwy80
+!i122 7
+Z46 L0 1 0
+Z47 OL;L;2020.4;71
+r1
+!s85 0
+31
+R16
+!s107 C:/cygwin/pc_home/rhino/buildsites/2020.p/builds/win64/modeltech/ieee/_data/exemptzmwy80|
+!s90 -sv|-quiet|C:/cygwin/pc_home/rhino/buildsites/2020.p/builds/win64/modeltech/ieee/_data/exemptzmwy80|-work|ieee|-s|-dirpath|$MODEL_TECH/..|+acc|-suppress|12110|-nolock|
+!i113 1
+Z48 o-suppress 12110 -quiet -sv -work ieee -s -dirpath {$MODEL_TECH/..} +acc -nolock -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z49 tCvgOpt 0
+n@m@a@t@h_@c@o@m@p@l@e@x__mti__sv__equiv__implct__pack
+Pmath_real
+!i122 5
+R2
+R3
+R36
+R37
+l0
+L51 1
+Z50 VgNk<PdFJ<XNPcfef`f?Z81
+!s100 gNk<PdFJ<XNPcfef`f?Z81
+R6
+33
+b1
+R39
+!i10b 1
+R16
+R40
+R41
+!i113 1
+R42
+R12
+Bbody
+R35
+!i122 5
+l0
+L1759 1
+VS>d8WjcN=_DISY9cLBfAb2
+!s100 S>d8WjcN=_DISY9cLBfAb2
+R6
+33
+R39
+!i10b 1
+R16
+R40
+R41
+!i113 1
+R42
+R12
+XMATH_REAL__mti__sv__equiv__implct__pack
+R37
+IgNk<PdFJ<XNPcfef`f?Z81
+R50
+R43
+R39
+!i10b 1
+!s100 2`13iMT@i3Y1ZgBK_6VOT0
+R44
+S1
+R3
+R45
+8C:/cygwin/pc_home/rhino/buildsites/2020.p/builds/win64/modeltech/ieee/_data/exemptzmjy83
+!i122 6
+R46
+R47
+r1
+!s85 0
+31
+R16
+!s107 C:/cygwin/pc_home/rhino/buildsites/2020.p/builds/win64/modeltech/ieee/_data/exemptzmjy83|
+!s90 -sv|-quiet|C:/cygwin/pc_home/rhino/buildsites/2020.p/builds/win64/modeltech/ieee/_data/exemptzmjy83|-work|ieee|-s|-dirpath|$MODEL_TECH/..|+acc|-suppress|12110|-nolock|
+!i113 1
+R48
+R49
+n@m@a@t@h_@r@e@a@l__mti__sv__equiv__implct__pack
+/mechanical_systems
+R0
+R1
+!i122 14
+R2
+R3
+R4
+R5
+l0
+L349 1
+V_F<D8EcD6`2^_l0aeiTm41
+!s100 _F<D8EcD6`2^_l0aeiTm41
+R6
+35
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Pnumeric_bit
+R21
+!i122 1
+R2
+R3
+Z51 8vhdl_src/ieee/mti_numeric_bit.vhd
+Z52 Fvhdl_src/ieee/mti_numeric_bit.vhd
+l0
+L59 1
+VG2;d`f^X6V]cQEn8_38:i1
+!s100 G2;d`f^X6V]cQEn8_38:i1
+R6
+33
+b1
+Z53 !s110 1602644243
+!i10b 1
+Z54 !s108 1602644243.000000
+Z55 !s90 -debuglib|-suppress|12110|-2008|-work|ieee|-dirpath|$MODEL_TECH/..|-nowarn|3|vhdl_src/ieee/mti_numeric_bit.vhd|
+Z56 !s107 vhdl_src/ieee/mti_numeric_bit.vhd|
+!i113 1
+R17
+R12
+Bbody
+DPx4 work 11 numeric_bit 0 22 G2;d`f^X6V]cQEn8_38:i1
+R21
+!i122 1
+l0
+L2079 1
+VZcgOYWWZVko<alMmzhe[c1
+!s100 ZcgOYWWZVko<alMmzhe[c1
+R6
+33
+R53
+!i10b 1
+R54
+R55
+R56
+!i113 1
+R17
+R12
+Pnumeric_bit_unsigned
+!i122 3
+R2
+R3
+Z57 8vhdl_src/ieee/mti_numeric_bit_unsigned.vhd
+Z58 Fvhdl_src/ieee/mti_numeric_bit_unsigned.vhd
+l0
+L53 1
+VfQPIgHhiDaHPI@GGmF4c92
+!s100 fQPIgHhiDaHPI@GGmF4c92
+R6
+33
+b1
+R39
+!i10b 1
+R16
+Z59 !s90 -debuglib|-suppress|12110|-2008|-work|ieee|-dirpath|$MODEL_TECH/..|-nowarn|3|vhdl_src/ieee/mti_numeric_bit_unsigned.vhd|
+Z60 !s107 vhdl_src/ieee/mti_numeric_bit_unsigned.vhd|
+!i113 1
+R17
+R12
+Bbody
+DPx4 work 20 numeric_bit_unsigned 0 22 fQPIgHhiDaHPI@GGmF4c92
+R21
+Z61 DPx4 ieee 11 numeric_bit 0 22 G2;d`f^X6V]cQEn8_38:i1
+!i122 3
+l0
+L840 1
+VnVSD=ARbFJSQgci5YRnWT1
+!s100 nVSD=ARbFJSQgci5YRnWT1
+R6
+33
+R39
+!i10b 1
+R16
+R59
+R60
+!i113 1
+R17
+R12
+Pnumeric_std
+R20
+R21
+!i122 2
+R2
+R3
+Z62 8vhdl_src/ieee/mti_numeric_std.vhd
+Z63 Fvhdl_src/ieee/mti_numeric_std.vhd
+l0
+L69 1
+VaU^R8eGcicLcUFIaBQSL>3
+!s100 aU^R8eGcicLcUFIaBQSL>3
+R6
+33
+b1
+R39
+!i10b 1
+R54
+Z64 !s90 -debuglib|-suppress|12110|-2008|-work|ieee|-dirpath|$MODEL_TECH/..|-nowarn|3|vhdl_src/ieee/mti_numeric_std.vhd|
+Z65 !s107 vhdl_src/ieee/mti_numeric_std.vhd|
+!i113 1
+R17
+R12
+Bbody
+DPx4 work 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R20
+R21
+!i122 2
+l0
+L2213 1
+Vg_7F]fA0eD^jGFXGLS>z40
+!s100 g_7F]fA0eD^jGFXGLS>z40
+R6
+33
+R39
+!i10b 1
+R54
+R64
+R65
+!i113 1
+R17
+R12
+Pnumeric_std_unsigned
+R21
+R20
+!i122 4
+R13
+R3
+Z66 8vhdl_src/ieee/mti_numeric_std_unsigned.vhd
+Z67 Fvhdl_src/ieee/mti_numeric_std_unsigned.vhd
+l0
+L55 1
+VL9z`>=>LNY9h8oAIomUKm3
+!s100 L9z`>=>LNY9h8oAIomUKm3
+R6
+33
+b1
+R39
+!i10b 1
+R16
+Z68 !s90 -debuglib|-suppress|12110|-2008|-work|ieee|-dirpath|$MODEL_TECH/..|-nowarn|3|vhdl_src/ieee/mti_numeric_std_unsigned.vhd|
+Z69 !s107 vhdl_src/ieee/mti_numeric_std_unsigned.vhd|
+!i113 1
+R17
+R12
+Bbody
+DPx4 work 20 numeric_std_unsigned 0 22 L9z`>=>LNY9h8oAIomUKm3
+R19
+R21
+R20
+!i122 4
+l0
+L829 1
+VeOJ`:nc;DaI8h=UK0_jRL3
+!s100 eOJ`:nc;DaI8h=UK0_jRL3
+R6
+33
+R39
+!i10b 1
+R16
+R68
+R69
+!i113 1
+R17
+R12
+/radiant_systems
+R0
+R1
+!i122 14
+R2
+R3
+R4
+R5
+l0
+L507 1
+VIh@HH8zCVTWYiFhU25AaU0
+!s100 Ih@HH8zCVTWYiFhU25AaU0
+R6
+35
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Pstd_logic_1164
+R21
+!i122 0
+d.
+Z70 8$MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd
+Z71 F$MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd
+l0
+R31
+VcVAk:aDinOX8^VGI1ekP<3
+!s100 cVAk:aDinOX8^VGI1ekP<3
+R6
+33
+b1
+R53
+!i10b 1
+R54
+Z72 !s90 -debuglib|-suppress|12110|-2008|-path|$MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd|-work|ieee|-dirpath|$MODEL_TECH/..|-nowarn|3|../src/misc/stdlogic.vhd|
+Z73 !s107 ../src/misc/stdlogic.vhd|
+!i113 1
+Z74 o-suppress 12110 -debuglib -2008 -path {$MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd} -work ieee -dirpath {$MODEL_TECH/..} -nowarn 3
+R12
+Bbody
+DPx4 work 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R21
+!i122 0
+l0
+L428 1
+VhQQ?T6n[9_Oe5XQ?o2U7l1
+!s100 hQQ?T6n[9_Oe5XQ?o2U7l1
+R6
+33
+R53
+!i10b 1
+R54
+R72
+R73
+!i113 1
+R74
+R12
+Pstd_logic_arith
+R21
+R20
+!i122 15
+R2
+R3
+Z75 8vhdl_src/synopsys/mti_std_logic_arith.vhd
+Z76 Fvhdl_src/synopsys/mti_std_logic_arith.vhd
+l0
+L25 1
+V[G314=:2zXJ`VORJe1J@Z1
+!s100 [G314=:2zXJ`VORJe1J@Z1
+R6
+31
+b1
+R7
+!i10b 1
+R8
+Z77 !s90 -debuglib|-suppress|12110|-93|-work|ieee|-dirpath|$MODEL_TECH/..|vhdl_src/synopsys/mti_std_logic_arith.vhd|
+Z78 !s107 vhdl_src/synopsys/mti_std_logic_arith.vhd|
+!i113 1
+Z79 o-suppress 12110 -debuglib -93 -work ieee -dirpath {$MODEL_TECH/..}
+R12
+Bbody
+DPx4 work 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R21
+R20
+!i122 15
+l0
+L620 1
+VmQRNZA95e?j0V]igS42@71
+!s100 mQRNZA95e?j0V]igS42@71
+R6
+31
+R7
+!i10b 1
+R8
+R77
+R78
+!i113 1
+R79
+R12
+Pstd_logic_misc
+Z80 DPx8 synopsys 10 attributes 0 22 dc>JdEHRM@6GGENe5bZ?D1
+R21
+R20
+!i122 16
+R2
+R3
+Z81 8vhdl_src/synopsys/mti_std_logic_misc.vhd
+Z82 Fvhdl_src/synopsys/mti_std_logic_misc.vhd
+l0
+L24 1
+VdN]HY6l5ohPcZ:TaC@B;53
+!s100 dN]HY6l5ohPcZ:TaC@B;53
+R6
+31
+b1
+R7
+!i10b 1
+R8
+Z83 !s90 -debuglib|-suppress|12110|-93|-work|ieee|-dirpath|$MODEL_TECH/..|vhdl_src/synopsys/mti_std_logic_misc.vhd|
+Z84 !s107 vhdl_src/synopsys/mti_std_logic_misc.vhd|
+!i113 1
+R79
+R12
+Bbody
+DPx4 work 14 std_logic_misc 0 22 dN]HY6l5ohPcZ:TaC@B;53
+R80
+R21
+R20
+!i122 16
+l0
+L173 1
+VeLe:BGN`CnP]TEVdacd@E2
+!s100 eLe:BGN`CnP]TEVdacd@E2
+R6
+31
+R7
+!i10b 1
+R8
+R83
+R84
+!i113 1
+R79
+R12
+Pstd_logic_signed
+Z85 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R21
+R20
+!i122 17
+R2
+R3
+Z86 8vhdl_src/synopsys/mti_std_logic_signed.vhd
+Z87 Fvhdl_src/synopsys/mti_std_logic_signed.vhd
+l0
+L35 1
+VC<aanc0R`<LWPSe[JYRP^3
+!s100 C<aanc0R`<LWPSe[JYRP^3
+R6
+31
+b1
+R7
+!i10b 1
+R8
+Z88 !s90 -debuglib|-suppress|12110|-93|-work|ieee|-dirpath|$MODEL_TECH/..|vhdl_src/synopsys/mti_std_logic_signed.vhd|
+Z89 !s107 vhdl_src/synopsys/mti_std_logic_signed.vhd|
+!i113 1
+R79
+R12
+Bbody
+DPx4 work 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+R85
+R21
+R20
+!i122 17
+l0
+L232 1
+VJBGRhj9PliKMlBAd_CnDE0
+!s100 JBGRhj9PliKMlBAd_CnDE0
+R6
+31
+R7
+!i10b 1
+R8
+R88
+R89
+!i113 1
+R79
+R12
+Pstd_logic_textio
+R20
+R21
+!i122 18
+R2
+R3
+Z90 8vhdl_src/synopsys/std_logic_textio.vhd
+Z91 Fvhdl_src/synopsys/std_logic_textio.vhd
+l0
+L22 1
+V^l:n6VFdg74Q?CKDhjD]D3
+!s100 ^l:n6VFdg74Q?CKDhjD]D3
+R6
+31
+b1
+Z92 !s110 1602644247
+!i10b 1
+Z93 !s108 1602644247.000000
+Z94 !s90 -debuglib|-suppress|12110|-93|-work|ieee|-dirpath|$MODEL_TECH/..|vhdl_src/synopsys/std_logic_textio.vhd|
+Z95 !s107 vhdl_src/synopsys/std_logic_textio.vhd|
+!i113 1
+R79
+R12
+Bbody
+DPx4 work 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R20
+R21
+!i122 18
+l0
+Z96 L70 1
+V^NC1zAiY@8oWdEO;61DG83
+!s100 ^NC1zAiY@8oWdEO;61DG83
+R6
+31
+R92
+!i10b 1
+R93
+R94
+R95
+!i113 1
+R79
+R12
+Pstd_logic_unsigned
+R85
+R21
+R20
+!i122 19
+R2
+R3
+Z97 8vhdl_src/synopsys/mti_std_logic_unsigned.vhd
+Z98 Fvhdl_src/synopsys/mti_std_logic_unsigned.vhd
+l0
+L34 1
+V;eZjO2D4ZDz<]0>8AL<ne1
+!s100 ;eZjO2D4ZDz<]0>8AL<ne1
+R6
+31
+b1
+R92
+!i10b 1
+R93
+Z99 !s90 -debuglib|-suppress|12110|-93|-work|ieee|-dirpath|$MODEL_TECH/..|vhdl_src/synopsys/mti_std_logic_unsigned.vhd|
+Z100 !s107 vhdl_src/synopsys/mti_std_logic_unsigned.vhd|
+!i113 1
+R79
+R12
+Bbody
+DPx4 work 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R85
+R21
+R20
+!i122 19
+l0
+L234 1
+Va7_YJ9iScHc86dAY^Thec1
+!s100 a7_YJ9iScHc86dAY^Thec1
+R6
+31
+R92
+!i10b 1
+R93
+R99
+R100
+!i113 1
+R79
+R12
+/thermal_systems
+R0
+R1
+!i122 14
+R2
+R3
+R4
+R5
+l0
+L578 1
+VC8=RhbEG^<IHD0l1zR;VE3
+!s100 C8=RhbEG^<IHD0l1zR;VE3
+R6
+35
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Pupf
+R61
+R21
+R20
+!i122 13
+R2
+R3
+Z101 8vhdl_src/ieee/mti_upf.vhd
+Z102 Fvhdl_src/ieee/mti_upf.vhd
+l0
+L4 1
+VK=6Jbnc5J8Zb:NaWRlHSF2
+!s100 K=6Jbnc5J8Zb:NaWRlHSF2
+R6
+33
+b1
+R7
+!i10b 1
+R8
+Z103 !s90 -debuglib|-suppress|12110|-2008|-work|ieee|-dirpath|$MODEL_TECH/..|-nowarn|3|vhdl_src/ieee/mti_upf.vhd|
+Z104 !s107 vhdl_src/ieee/mti_upf.vhd|
+!i113 1
+R17
+R12
+Bbody
+DPx4 work 3 upf 0 22 K=6Jbnc5J8Zb:NaWRlHSF2
+R61
+R21
+R20
+!i122 13
+l0
+L1105 1
+VLine0ehRaK]=aMokHm:4O2
+!s100 Line0ehRaK]=aMokHm:4O2
+R6
+33
+R7
+!i10b 1
+R8
+R103
+R104
+!i113 1
+R17
+R12
+Pvital_memory
+Z105 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z106 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+R21
+R20
+!i122 22
+Z107 w1602644076
+R3
+8vhdl_src/vital2000/memory_p_2000.vhd
+Fvhdl_src/vital2000/memory_p_2000.vhd
+l0
+L238 1
+VkaZ<]i`[HA8G2D_^LjE>g0
+!s100 kaZ<]i`[HA8G2D_^LjE>g0
+R6
+31
+b1
+R32
+!i10b 1
+R33
+!s90 -debuglib|-suppress|12110|-93|-work|ieee|-novital|-dirpath|$MODEL_TECH/..|vhdl_src/vital2000/memory_p_2000.vhd|
+!s107 vhdl_src/vital2000/memory_p_2000.vhd|
+!i113 1
+Z108 o-suppress 12110 -debuglib -93 -work ieee -novital -dirpath {$MODEL_TECH/..}
+R12
+Bbody
+DPx4 work 12 vital_memory 0 22 kaZ<]i`[HA8G2D_^LjE>g0
+R105
+R106
+R21
+R20
+!i122 23
+8vhdl_src/vital2000/memory_b_2000.vhd
+Fvhdl_src/vital2000/memory_b_2000.vhd
+l0
+L239 1
+VkaNX_m[=oB^B^InB7`L4L1
+!s100 kaNX_m[=oB^B^InB7`L4L1
+R6
+31
+R32
+!i10b 1
+R33
+!s90 -debuglib|-suppress|12110|-93|-work|ieee|-novital|-dirpath|$MODEL_TECH/..|vhdl_src/vital2000/memory_b_2000.vhd|
+!s107 vhdl_src/vital2000/memory_b_2000.vhd|
+!i113 1
+R108
+R12
+Pvital_m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Program Files/ModelSim/examples
+T_opt
+!s110 1713774229
+Vmo6^i@1mLbl0ZXVnGN7zJ0
+Z1 04 6 7 work orgate orlogic 1
+=1-bcf4d4e216ed-66261e95-1a7-4be0
+Z2 o-quiet -auto_acc_if_foreign -work Avarice
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1713773497
+Vh352M]O<K60GbX1b1@I9R1
+R1
+=1-bcf4d4e216ed-66261bb9-127-741c
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1713806620
+V8;X_F^nBL?ZIl>jYiz1?B2
+04 16 10 work sr_latch_clocked behavioral 1
+=1-bcf4d4e216ed-66269d1b-331-95bc
+R2
+R3
+n@_opt2
+R4
+R0
+T_opt3
+!s110 1713869832
+Vkg7GRMO:F]C]SWhgTU90A2
+04 8 10 work alu_4bit behavioral 1
+=1-bcf4d4e216ed-66279408-247-8f48
+R2
+R3
+n@_opt3
+R4
+R0
+T_opt4
+!s110 1717932845
+VNH3O8lcbfa::ND52=@A2z2
+04 12 10 work alu_4bittest behavioral 1
+=1-bcf4d4e216ed-6665932d-cd-6414
+R2
+R3
+n@_opt4
+R4
+Ealu_4bit
+Z5 w1713869799
+Z6 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 104
+Z9 dS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice
+Z10 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/4BIT_ALU.vhd
+Z11 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/4BIT_ALU.vhd
+l0
+L5 1
+V:8X@U29;ah0A@a6Z:J9j73
+!s100 DG`Nm]kGoDo9JQfSgg9@C1
+Z12 OL;C;2020.4;71
+32
+Z13 !s110 1713870719
+!i10b 1
+Z14 !s108 1713870719.000000
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/4BIT_ALU.vhd|
+Z16 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/4BIT_ALU.vhd|
+!i113 0
+Z17 o-work work -2002 -explicit
+Z18 tExplicit 1 CvgOpt 0
+Abehavioral
+R6
+R7
+R8
+DEx4 work 8 alu_4bit 0 22 :8X@U29;ah0A@a6Z:J9j73
+!i122 104
+l14
+Z19 L12 42
+V13]LJQNVB3@IVa:2F64zU3
+!s100 _ikS^T0iOmJ::Y8>aVSNe3
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Ealu_4bittest
+Z20 w1717932831
+R6
+R7
+R8
+!i122 126
+R9
+Z21 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/4BIT_ALU - Copy.vhd
+Z22 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/4BIT_ALU - Copy.vhd
+l0
+L5 1
+V[ZKm78=<l?9GN;mXzF5dP2
+!s100 ZmzM_N8RJNK_IaLL0T:j82
+R12
+32
+Z23 !s110 1717932834
+!i10b 1
+Z24 !s108 1717932834.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/4BIT_ALU - Copy.vhd|
+Z26 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/4BIT_ALU - Copy.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R6
+R7
+R8
+DEx4 work 12 alu_4bittest 0 22 [ZKm78=<l?9GN;mXzF5dP2
+!i122 126
+l13
+L12 50
+VoJ03;S^Z_aLD7Se>do3641
+!s100 Nnzz15kMR]6keRcCQ2HTE3
+R12
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R17
+R18
+Ealu_8bit
+Z27 w1713870680
+R6
+R7
+R8
+!i122 107
+R9
+Z28 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/8BIT_ALU.vhd
+Z29 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/8BIT_ALU.vhd
+l0
+L5 1
+VV:9MldXH[AaX545j[JiLM2
+!s100 CP<h5^?jC9Cd6?DK9GVIh1
+R12
+32
+Z30 !s110 1713870720
+!i10b 1
+Z31 !s108 1713870720.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/8BIT_ALU.vhd|
+Z33 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/8BIT_ALU.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R6
+R7
+R8
+DEx4 work 8 alu_8bit 0 22 V:9MldXH[AaX545j[JiLM2
+!i122 107
+l14
+R19
+VGmbKQ0GUlS^j67m:H`4cH0
+!s100 WVCTznH>oMdHeMmaVX9nk0
+R12
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 0
+R17
+R18
+Eandgate
+Z34 w1713848644
+R7
+R8
+!i122 109
+R9
+Z35 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/AND_GATE.vhd
+Z36 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/AND_GATE.vhd
+l0
+Z37 L10 1
+VoQdWa;NX<ddRPm<9L4]^51
+!s100 g]BobAUIh89iZY8o4FlE<1
+R12
+32
+R30
+!i10b 1
+R31
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/AND_GATE.vhd|
+Z39 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/AND_GATE.vhd|
+!i113 0
+R17
+R18
+Aandlogic
+R7
+R8
+DEx4 work 7 andgate 0 22 oQdWa;NX<ddRPm<9L4]^51
+!i122 109
+l23
+Z40 L21 7
+VK[89fBh6zj27Z=H]:^0`b0
+!s100 _V[6421_T?^ZB<mgWQ]iW1
+R12
+32
+R30
+!i10b 1
+R31
+R38
+R39
+!i113 0
+R17
+R18
+Ed_flipflop
+Z41 w1713864673
+R7
+R8
+!i122 110
+R9
+Z42 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/D_FLIPFLOP.vhd
+Z43 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/D_FLIPFLOP.vhd
+l0
+L4 1
+V1b^gfbK9j]l8oHNd6]ZYe1
+!s100 TWdYghED9InPdd@I:Vih62
+R12
+32
+R30
+!i10b 1
+R31
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/D_FLIPFLOP.vhd|
+Z45 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/D_FLIPFLOP.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R7
+R8
+DEx4 work 10 d_flipflop 0 22 1b^gfbK9j]l8oHNd6]ZYe1
+!i122 110
+l11
+L9 13
+VVfgHNT42^YFndMB383k<b0
+!s100 SO5_8glB8F?i<QEY0meN[1
+R12
+32
+R30
+!i10b 1
+R31
+R44
+R45
+!i113 0
+R17
+R18
+Edecoder_2x4
+Z46 w1713863469
+R7
+R8
+!i122 102
+R9
+Z47 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/2X4DECODER.vhd
+Z48 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/2X4DECODER.vhd
+l0
+L4 1
+VzNo59F:K`JDgK?eSBoLHF3
+!s100 4G7`SPnA<WY_>GPDR8M@L0
+R12
+32
+R13
+!i10b 1
+R14
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/2X4DECODER.vhd|
+Z50 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/2X4DECODER.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R7
+R8
+DEx4 work 11 decoder_2x4 0 22 zNo59F:K`JDgK?eSBoLHF3
+!i122 102
+l10
+Z51 L9 18
+Via:_ILG7l5Fj3iOz>>Z>H1
+!s100 >e[Sgfc:PK@a3iTfV:Ck@3
+R12
+32
+R13
+!i10b 1
+R14
+R49
+R50
+!i113 0
+R17
+R18
+Edecoder_3x8
+Z52 w1713863510
+R7
+R8
+!i122 103
+R9
+Z53 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/3X8DECODER.vhd
+Z54 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/3X8DECODER.vhd
+l0
+L4 1
+VV:CA6o]JWgnAhO`a0RO5k2
+!s100 kKdFdzjH4^blU]7TVzicI2
+R12
+32
+R13
+!i10b 1
+R14
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/3X8DECODER.vhd|
+Z56 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/3X8DECODER.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R7
+R8
+DEx4 work 11 decoder_3x8 0 22 V:CA6o]JWgnAhO`a0RO5k2
+!i122 103
+l10
+Z57 L9 26
+VQ34@5fC=H1RYNb?JJM>V[1
+!s100 o]]Yj7bEBAdJ=;QlbSlYC2
+R12
+32
+R13
+!i10b 1
+R14
+R55
+R56
+!i113 0
+R17
+R18
+Eencoder_4x2
+Z58 w1713862166
+R7
+R8
+!i122 106
+R9
+Z59 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/4X2ENCODER.vhd
+Z60 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/4X2ENCODER.vhd
+l0
+L4 1
+VTfUBzBBTmac`;_Kfc8SHh2
+!s100 1SMjYa;zR7S6XmTA=h0je1
+R12
+32
+R30
+!i10b 1
+R31
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/4X2ENCODER.vhd|
+Z62 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/4X2ENCODER.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R7
+R8
+DEx4 work 11 encoder_4x2 0 22 TfUBzBBTmac`;_Kfc8SHh2
+!i122 106
+l10
+R51
+VXiH;oSV=J4@@@K_AH2md^1
+!s100 ^nnMS^];6zB`:ic8Vb1_D0
+R12
+32
+R30
+!i10b 1
+R31
+R61
+R62
+!i113 0
+R17
+R18
+Eencoder_8x3
+Z63 w1713863555
+R7
+R8
+!i122 108
+R9
+Z64 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/8X3ENCODER.vhd
+Z65 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/8X3ENCODER.vhd
+l0
+L4 1
+VNF6`IcXh?ST794CWQhd4`0
+!s100 `ZdYiRS6MS_9W7EWlB5B12
+R12
+32
+R30
+!i10b 1
+R31
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/8X3ENCODER.vhd|
+Z67 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/8X3ENCODER.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R7
+R8
+DEx4 work 11 encoder_8x3 0 22 NF6`IcXh?ST794CWQhd4`0
+!i122 108
+l10
+R57
+V;WY^WD`ZC`n=N9@Nac6fg0
+!s100 1]2S;ePh=J9Jn5>Kle;O?2
+R12
+32
+R30
+!i10b 1
+R31
+R66
+R67
+!i113 0
+R17
+R18
+Efulladder
+R34
+R7
+R8
+!i122 111
+R9
+Z68 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/FULL_ADDER.vhd
+Z69 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/FULL_ADDER.vhd
+l0
+R37
+V=IIMkjPgHj2R4f>nP:>4`0
+!s100 JWG1n4fAomATC;<z0BBzl0
+R12
+32
+R30
+!i10b 1
+R31
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/FULL_ADDER.vhd|
+Z71 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/FULL_ADDER.vhd|
+!i113 0
+R17
+R18
+Afulladderlogic
+R7
+R8
+DEx4 work 9 fulladder 0 22 =IIMkjPgHj2R4f>nP:>4`0
+!i122 111
+l25
+Z72 L23 8
+Vj]_dN2M<Z[2ZIA1gLFE:f3
+!s100 LGm7ameUZ`k078?WdX3eQ2
+R12
+32
+R30
+!i10b 1
+R31
+R70
+R71
+!i113 0
+R17
+R18
+Efullsubtractor
+Z73 w1713860523
+R7
+R8
+!i122 112
+R9
+Z74 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/FULL_SUBTRACTOR.vhd
+Z75 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/FULL_SUBTRACTOR.vhd
+l0
+R37
+VlHA7i5a3N<`A<CRaV@5W50
+!s100 `h`jWRkd[P2M88>b[feSH2
+R12
+32
+R30
+!i10b 1
+R31
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/FULL_SUBTRACTOR.vhd|
+Z77 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/FULL_SUBTRACTOR.vhd|
+!i113 0
+R17
+R18
+Afullsubtractorlogic
+R7
+R8
+DEx4 work 14 fullsubtractor 0 22 lHA7i5a3N<`A<CRaV@5W50
+!i122 112
+l25
+R72
+VeebU1PI:;WTT^Cz]TOW@I2
+!s100 <gEIICZkf?1>8XI`^=aRn3
+R12
+32
+R30
+!i10b 1
+R31
+R76
+R77
+!i113 0
+R17
+R18
+Ehalfadder
+R34
+R7
+R8
+!i122 113
+R9
+Z78 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/HALF_ADDER.vhd
+Z79 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/HALF_ADDER.vhd
+l0
+R37
+V>9aKUeU2VY07G;_Gdh0kW0
+!s100 ?zSCUgz=VCQj1n>Bk0<G[3
+R12
+32
+R30
+!i10b 1
+R31
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/HALF_ADDER.vhd|
+Z81 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/HALF_ADDER.vhd|
+!i113 0
+R17
+R18
+Ahalfadderlogic
+R7
+R8
+DEx4 work 9 halfadder 0 22 >9aKUeU2VY07G;_Gdh0kW0
+!i122 113
+l24
+Z82 L22 8
+V=16lcNCMCO4BjDhA8F2dB2
+!s100 `jG605>X7m_f3_8_8UAGk0
+R12
+32
+R30
+!i10b 1
+R31
+R80
+R81
+!i113 0
+R17
+R18
+Ehalfsubtractor
+Z83 w1713860376
+R7
+R8
+!i122 114
+R9
+Z84 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/HALF_SUBTRACTOR.vhd
+Z85 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/HALF_SUBTRACTOR.vhd
+l0
+R37
+VCeNIgiJzgfE[>34IkIG]h1
+!s100 mePiz7I@@MJOg4W_in>eo1
+R12
+32
+R30
+!i10b 1
+R31
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/HALF_SUBTRACTOR.vhd|
+Z87 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/HALF_SUBTRACTOR.vhd|
+!i113 0
+R17
+R18
+Ahalfsubtractorlogic
+R7
+R8
+DEx4 work 14 halfsubtractor 0 22 CeNIgiJzgfE[>34IkIG]h1
+!i122 114
+l24
+R82
+V4]5lJJE_QiRN_=EWAZO7C1
+!s100 ejNS8BhLDWIHS5cW4[0T82
+R12
+32
+R30
+!i10b 1
+R31
+R86
+R87
+!i113 0
+R17
+R18
+Ejk_flipflop
+Z88 w1713864567
+R7
+R8
+!i122 115
+R9
+Z89 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/JK_FLIPFLOP.vhd
+Z90 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/JK_FLIPFLOP.vhd
+l0
+L4 1
+V^CEY981KmVadXl0Gj=Te03
+!s100 U_6^G_j?^k8^ee9mL>K3H0
+R12
+32
+R30
+!i10b 1
+R31
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/JK_FLIPFLOP.vhd|
+Z92 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/JK_FLIPFLOP.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R7
+R8
+DEx4 work 11 jk_flipflop 0 22 ^CEY981KmVadXl0Gj=Te03
+!i122 115
+l11
+L9 19
+VKfGDWQ6=mnRoDHM794LaC2
+!s100 cm_KH_mF742<e5[1D]MBg3
+R12
+32
+R30
+!i10b 1
+R31
+R91
+R92
+!i113 0
+R17
+R18
+Emultiplexer4x1
+Z93 w1713862485
+R7
+R8
+!i122 105
+R9
+Z94 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/4X1MULTIPLEXER.vhd
+Z95 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/4X1MULTIPLEXER.vhd
+l0
+L4 1
+Vh2@8i5]k`c^OTCWJYI0^F0
+!s100 kQz;]4^UZ[g[L^jnOIfn91
+R12
+32
+R30
+!i10b 1
+R31
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/4X1MULTIPLEXER.vhd|
+Z97 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/4X1MULTIPLEXER.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R7
+R8
+DEx4 work 14 multiplexer4x1 0 22 h2@8i5]k`c^OTCWJYI0^F0
+!i122 105
+l11
+L10 18
+VMaBOOd2TbeNk5QM8P7mQ43
+!s100 IYTKD98f4o6SU7jQB_H[n3
+R12
+32
+R30
+!i10b 1
+R31
+R96
+R97
+!i113 0
+R17
+R18
+Amultiplexer4x1logic
+R7
+R8
+DEx4 work 14 multiplexer4x1 0 22 H=Bz@[:IQh5BRK64zkDDd3
+!i122 49
+l27
+L25 7
+VGjH_]kclEh]<baP1eQL182
+!s100 >Ro>6hNfa6M7FJQXb@=1i1
+R12
+32
+!s110 1713861146
+!i10b 1
+!s108 1713861146.000000
+R96
+R97
+!i113 0
+R17
+R18
+w1713861140
+Enandgate
+R34
+R7
+R8
+!i122 116
+R9
+Z98 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NAND_GATE.vhd
+Z99 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NAND_GATE.vhd
+l0
+R37
+VAE9cVKcmZmC0TU8TRmR?[2
+!s100 ec7Ij1E`1R5cbNcYJM6II1
+R12
+32
+R30
+!i10b 1
+R31
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NAND_GATE.vhd|
+Z101 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NAND_GATE.vhd|
+!i113 0
+R17
+R18
+Anandlogic
+R7
+R8
+DEx4 work 8 nandgate 0 22 AE9cVKcmZmC0TU8TRmR?[2
+!i122 116
+l23
+R40
+VICC88AHCf[i9fE<fD>XM[2
+!s100 nEFKahf^e>Z=InQMMbaDT1
+R12
+32
+R30
+!i10b 1
+R31
+R100
+R101
+!i113 0
+R17
+R18
+Enorgate
+R34
+R7
+R8
+!i122 117
+R9
+Z102 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOR_GATE.vhd
+Z103 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOR_GATE.vhd
+l0
+R37
+VR`4j0CgYMPUHA[S0UQXLC1
+!s100 ha0<HP^cL`DES_WgQLE^30
+R12
+32
+R30
+!i10b 1
+R31
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOR_GATE.vhd|
+Z105 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOR_GATE.vhd|
+!i113 0
+R17
+R18
+Anorlogic
+R7
+R8
+DEx4 work 7 norgate 0 22 R`4j0CgYMPUHA[S0UQXLC1
+!i122 117
+l23
+R40
+V]AbN88Z6e^R2AW<eE9lXm2
+!s100 nm?zN_G1_Rk1X=5LFIO2b2
+R12
+32
+R30
+!i10b 1
+R31
+R104
+R105
+!i113 0
+R17
+R18
+Enotgate
+R34
+R7
+R8
+!i122 118
+R9
+Z106 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOT_GATE.vhd
+Z107 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOT_GATE.vhd
+l0
+L11 1
+Vi0<C0=^R3z<C`2V>QRY8m1
+!s100 X[:]a^CLj6RNLj5a^mVM51
+R12
+32
+R30
+!i10b 1
+R31
+Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOT_GATE.vhd|
+Z109 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/NOT_GATE.vhd|
+!i113 0
+R17
+R18
+Anotlogic
+R7
+R8
+DEx4 work 7 notgate 0 22 i0<C0=^R3z<C`2V>QRY8m1
+!i122 118
+l23
+R40
+VGXJR5J]g^Ug@dP<zGIe0d0
+!s100 XM9@eIY:4_ic2Hk2>Le^10
+R12
+32
+R30
+!i10b 1
+R31
+R108
+R109
+!i113 0
+R17
+R18
+Eorgate
+R34
+R7
+R8
+!i122 119
+R9
+Z110 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/OR_GATE.vhd
+Z111 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/OR_GATE.vhd
+l0
+R37
+Vm]6ZOd4A1;obXkBaoY@=@1
+!s100 aMQ:DVafb2D6nR@]8n3@T2
+R12
+32
+R30
+!i10b 1
+R31
+Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/OR_GATE.vhd|
+Z113 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/OR_GATE.vhd|
+!i113 0
+R17
+R18
+Aorlogic
+R7
+R8
+DEx4 work 6 orgate 0 22 m]6ZOd4A1;obXkBaoY@=@1
+!i122 119
+l23
+R40
+VnEKE<he]K2Ng7>UN9AU6g0
+!s100 [M_`3eWHi;5F5CSUIz>DU1
+R12
+32
+R30
+!i10b 1
+R31
+R112
+R113
+!i113 0
+R17
+R18
+Esr_flipflop
+Z114 w1713863913
+R7
+R8
+!i122 120
+R9
+Z115 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/SR_FLIPFLOP.vhd
+Z116 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/SR_FLIPFLOP.vhd
+l0
+L4 1
+VZ@cMjZURcLZ2WK?Hj60MA0
+!s100 aJC;YYF^2LL<6m`ajfV7E3
+R12
+32
+R30
+!i10b 1
+R31
+Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/SR_FLIPFLOP.vhd|
+Z118 !s107 S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/SR_FLIPFLOP.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R7
+R8
+DEx4 work 11 sr_flipflop 0 22 Z@cMjZURcLZ2WK?Hj60MA0
+!i122 120
+l11
+L9 17
+V_3DOmhjN;RjH]ZbQ?KDba1
+!s100 aACoOGl6F:9V0=Fh`aPLY0
+R12
+32
+R30
+!i10b 1
+R31
+R117
+R118
+!i113 0
+R17
+R18
+Exnorgate
+R34
+R7
+R8
+!i122 121
+R9
+Z119 8S:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/XNOR_GATE.vhd
+Z120 FS:/ITSUREN/CSIT/Semester-III/Computer Architecture/Avarice/XNOR_GATE.vhd
+l0
+R37
+VQN9i[I0]`IRf>dR3EC>610
+!s100 ?FKjcb0aM1ei7E=9>7fO=3
+R12
+32
+Z121 !
